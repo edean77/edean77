@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lacrosse Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Custom background color */
+        }
+        header {
+            background-color: #336699;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #eeeeee;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333333;
+            padding: 10px;
+        }
+        /* Custom styles for the main content */
+        .main-content {
+            padding: 20px;
+        }
+        .main-content img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lacrosse</h1>
+    </header>
+    <nav>
+        <a href="#fun-facts">Fun Facts</a> <!-- On-page anchor -->
+    </nav>
+    <div class="main-content">
+        <h2 id="fun-facts" class="post-title">Fun Facts</h2> <!-- On-page anchor target -->
+        <ol>
+            <li>Native Americans invented lacrosse</li>
+            <li>The game was originally used to toughen up young men for war, focusing also on the spiritual side</li>
+            <li>Lacrosse is the fastest game to be played on two feet</li>
+            <li>Women’s lacrosse will likely be an Olympic sport in 2028</li>
+        </ol>
+        <img src="lacrosse.jpg" alt="Lacrosse image"> <!-- Image (replace lacrosse.jpg with your image file name) -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!-- Embedded YouTube video (replace VIDEO_ID with the actual video ID) -->
+    </div>
+</body>
+</html>
